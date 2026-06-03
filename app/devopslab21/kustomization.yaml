@@ -1,0 +1,9 @@
+resources:
+  - frontend-deployment.yaml
+  - backend-deployment.yaml
+
+images:
+  - name: jacobc22/frontend
+    newTag: v1
+  - name: jacobc22/backend
+    newTag: v1
